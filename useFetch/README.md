@@ -6,19 +6,19 @@ Example
   const { data: null, loading: true, error: null } =useFetch(url);
 ```
 
-Receives an api-endpoint url and return an objecto with the following properties
+Receives an api-endpoint url and return an object with the following properties:
 
+Data fetched from the API
 ```
 data
 ```
-Data fetched from the API
 
+A loading flag
 ```
 loading
 ```
-A loading flag
 
+Returns the error if it happened
 ```
 error
 ```
-Returns the error if it happened
